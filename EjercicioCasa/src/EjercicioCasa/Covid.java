@@ -21,6 +21,7 @@ public class Covid {
 	public void mostrarProvinciaEIncidencia(ArrayList<String> provincia1, ArrayList<Double> incidencias1) {
 		System.out.println(Arrays.toString(provincia1.toArray()));
 		System.out.println(Arrays.toString(incidencias1.toArray()));
+		
 	}
 	public Double HacerMedia(ArrayList<Double> incidencias1) {
 		   int i = 0;
