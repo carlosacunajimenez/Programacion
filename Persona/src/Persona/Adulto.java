@@ -2,7 +2,7 @@ package Persona;
 
 public class Adulto extends PersonaClase{
 	String nombre = "jose";
-	int edad = 87;
+	//int edad = 87;
 	Adulto(String nombre, int edad){
 		this.nombre = nombre;
 		this.edad = edad;
@@ -12,7 +12,7 @@ public class Adulto extends PersonaClase{
 		 super();
 	}
 	Adulto(int edad){
-		super.nombre = nombre;
+		this.nombre = super.nombre;
 		this.edad = edad;
 	}
 
